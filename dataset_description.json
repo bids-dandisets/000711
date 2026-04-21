@@ -4,7 +4,12 @@
     "HEDVersion": "8.3.0",
     "Description": "The Visual Behavior Ophys dataset was generated using in vivo 2-photon calcium imaging (also called optical physiology, or \u201cophys\u201d) to measure the activity of genetically identified neurons in the visual cortex of mice performing a go/no-go visual change detection task. Population of neurons were recorded over multiple days with varying sensory and behavioral contexts, including familiar and novel stimuli, and passive exposure sessions. This dataset can be used to evaluate the influence of experience, expectation, and task engagement on neural coding and dynamics in excitatory, Vip inhibitory, and Sst inhibitory cell populations. \n\nThe full ophys dataset includes neural and behavioral measurements from 107 well-trained mice during 703 in vivo 2-photon imaging sessions from 326 unique fields of view, resulting in a total of 50,476 cortical neurons recorded. The full behavioral training history of all imaged mice is also provided as part of the dataset, allowing investigation into task learning, behavioral strategy, and inter-animal variability. There are a total of 4,782 behavior sessions available for analysis.\n\nFull documentation of the Visual Behavior Ophys dataset and tutorials can be found here: https://allensdk.readthedocs.io/en/latest/visual_behavior_optical_physiology.html\n\nThe recommended route for interacting with these data is through the AllenSDK (https://github.com/AllenInstitute/AllenSDK/) which provides methods for downloading and processing data. Documentation of the AllenSDK can be found here: https://allensdk.readthedocs.io/en/latest/. \n\nThere are several metadata summary tables that are available as \"related resources\" associated with this DANDI-set. You can also use the AllenSDK to download these tables. See this notebook (https://allensdk.readthedocs.io/en/latest/_static/examples/nb/visual_behavior_ophys_data_access.html) for information on downloading the metadata and the associated NWB files.\n\nPublicly available pre-prints using this dataset include: \n\nStimulus novelty uncovers coding diversity in visual cortical circuits\nhttps://doi.org/10.1101/2023.02.14.528085 \n\nBehavioral strategy shapes activation of the Vip-Sst disinhibitory circuit in visual cortex\nhttps://doi.org/10.1101/2023.04.28.538575 \n\nFamiliarity modulated synapses model visual cortical circuit novelty responses\nhttps://doi.org/10.1101/2023.08.16.553635 ",
     "DatasetType": "raw",
-    "Authors": [],
+    "Authors": [
+        "Olsen, Shawn",
+        "Morrison, Christopher",
+        "Garrett, Marina",
+        "Groblewski, Peter"
+    ],
     "License": "CC-BY-4.0",
     "GeneratedBy": [
         {
